@@ -22,60 +22,64 @@ if (!step) {
 
 var config = JSON.parse(fs.readFileSync(configPath));
 
-var path = config.path;
+var i18nFolderName = config.i18nFolderName;
 var baseLanguage = config.baseLanguage;
 var languageCodes = config.languageCodes;
 var sourceFolder = config.sourceFolder;
 
-if (!path) console.log('No path file was supplied in config');
+if (!i18nFolderName)
+  console.log('No i18nFolderName file was supplied in config');
 if (!baseLanguage) console.log('No baseLanguage file was supplied in config');
 if (!languageCodes) console.log('No languageCodes file was supplied in config');
 if (!sourceFolder) console.log('No sourceFolder file was supplied in config');
-if (!path || !baseLanguage || !languageCodes || !sourceFolder)
+if (!i18nFolderName || !baseLanguage || !languageCodes || !sourceFolder)
   return process.exit(1);
 
 languageCodes.forEach(function(language) {
   if (language !== baseLanguage) {
     if (step === 'init') {
+      var pathToI18nFolder = `${sourceFolder}/${i18nFolderName}`;
+      var listOfFilesInI18nFolder = [];
+      if (!fs.existsSync(pathToI18nFolder)) {
+        fs.mkdirSync(pathToI18nFolder);
+      }
+      fs.readdirSync(pathToI18nFolder).forEach(fileName => {
+        listOfFilesInI18nFolder.push(fileName);
+      });
+      if (listOfFilesInI18nFolder.indexOf(`${language}.po`) < 0) {
+        exec(
+          `npx ttag init ${language} ${sourceFolder}/${i18nFolderName}/${language}.po`,
+          function(err, stdout, stderr) {
+            if (err) {
+              console.log(`Error: ${err}`);
+              return;
+            }
+            console.log(
+              `New language file added: "${sourceFolder}/${i18nFolderName}/${language}.po"`
+            );
+          }
+        );
+      }
+    } else if (step === 'update') {
       exec(
-        `npx ttag init ${language} ${sourceFolder}/i18n/${language}.po`,
+        `npx ttag update ${sourceFolder}/${i18nFolderName}/${language}.po ${sourceFolder}/`,
         function(err, stdout, stderr) {
           if (err) {
-            // node couldn't execute the command
+            console.log(`Error: ${err}`);
             return;
           }
-
-          // the *entire* stdout and stderr (buffered)
-          console.log(`stdout: ${stdout}`);
-          console.log(`stderr: ${stderr}`);
         }
       );
-    } else if (step === 'update') {
-      exec(`npx ttag update ${path}/${language}.po ${sourceFolder}/`, function(
-        err,
-        stdout,
-        stderr
-      ) {
-        if (err) {
-          // node couldn't execute the command
-          return;
-        }
-
-        // the *entire* stdout and stderr (buffered)
-        console.log(`stdout: ${stdout}`);
-        console.log(`stderr: ${stderr}`);
-      });
       exec(
-        `npx ttag po2json ${path}/${language}.po > ${path}/${language}.po.json`,
+        `npx ttag po2json ${sourceFolder}/${i18nFolderName}/${language}.po > ${sourceFolder}/${i18nFolderName}/${language}.po.json`,
         function(err, stdout, stderr) {
           if (err) {
-            // node couldn't execute the command
+            console.log(`Error: ${err}`);
             return;
           }
-
-          // the *entire* stdout and stderr (buffered)
-          console.log(`stdout: ${stdout}`);
-          console.log(`stderr: ${stderr}`);
+          console.log(
+            `${sourceFolder}/${i18nFolderName}/${language}.po.json updated`
+          );
         }
       );
     }
