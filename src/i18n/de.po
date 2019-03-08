@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals = 2; plural = (n !== 1);\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/App.js:14
+msgid "Blah blah yo"
+msgstr "Bla bla bla yo"
+
+#: src/App.js:15
+msgid "Learn React"
+msgstr "Lernen Sie React"
+
+#: src/ExampleText.js:5
+msgid "This is some example text: ${ text }"
+msgstr "Dies ist ein Beispieltext: ${ text }"

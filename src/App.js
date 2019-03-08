@@ -1,24 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { t } from 'ttag';
+
+import ChangeLang from './ChangeLang';
+import ExampleText from './ExampleText';
+import MainArticle from './MainArticle';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <ChangeLang trigger={() => this.forceUpdate()} />
+        <MainArticle
+          callToAction="Ohai world"
+          backgroundImgUrl="https://www.qantas.com/images/qantas/merchandising/loyalty/singapore-skyline-marina-night/jpg/homepagepromotion.mobile.jpg"
+        />
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <ExampleText text={t`Blah blah yo`} />
+          {t`Learn React`}
         </header>
       </div>
     );
