@@ -12,7 +12,7 @@ class App extends Component {
       <div className="App">
         <ChangeLang trigger={() => this.forceUpdate()} />
         <MainArticle
-          callToAction="Ohai world"
+          callToAction={t`Ohai world`}
           backgroundImgUrl="https://www.qantas.com/images/qantas/merchandising/loyalty/singapore-skyline-marina-night/jpg/homepagepromotion.mobile.jpg"
         />
         <header className="App-header">

@@ -19,7 +19,7 @@ const MainArticle = ({ callToAction, backgroundImgUrl }) => (
         justifyContent: 'center'
       }}
     >
-      <h1>{t`${callToAction}`}</h1>
+      <h1>{callToAction}</h1>
     </div>
   </div>
 );

@@ -6,13 +6,17 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/App.js:14
+#: src/App.js:15
+msgid "Ohai world"
+msgstr "Ohai Welt"
+
+#: src/App.js:19
 msgid "Blah blah yo"
 msgstr "Bla bla bla yo"
 
-#: src/App.js:15
+#: src/App.js:20
 msgid "Learn React"
-msgstr "Lernen Sie React"
+msgstr "Lernen Sie zu React"
 
 #: src/ExampleText.js:5
 msgid "This is some example text: ${ text }"
