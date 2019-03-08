@@ -21,3 +21,12 @@ msgstr "En savoir React"
 #: src/ExampleText.js:5
 msgid "This is some example text: ${ text }"
 msgstr "Voici un exemple de texte: ${ text }"
+
+#: src/App.js:24
+msgid ""
+"This article will describe how you can set up the translation process for "
+"Create React App with ttag in a few minutes with 5 simple steps."
+msgstr ""
+"Cet article décrit comment configurer le processus de traduction de "
+"l'application Create React avec ttag en quelques minutes, en 5 étapes "
+"simples."

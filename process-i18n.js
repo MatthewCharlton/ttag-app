@@ -35,53 +35,71 @@ if (!sourceFolder) console.log('No sourceFolder file was supplied in config');
 if (!i18nFolderName || !baseLanguage || !languageCodes || !sourceFolder)
   return process.exit(1);
 
-languageCodes.forEach(function(language) {
-  if (language !== baseLanguage) {
-    if (step === 'init') {
-      var pathToI18nFolder = `${sourceFolder}/${i18nFolderName}`;
-      var listOfFilesInI18nFolder = [];
-      if (!fs.existsSync(pathToI18nFolder)) {
-        fs.mkdirSync(pathToI18nFolder);
-      }
-      fs.readdirSync(pathToI18nFolder).forEach(fileName => {
-        listOfFilesInI18nFolder.push(fileName);
-      });
-      if (listOfFilesInI18nFolder.indexOf(`${language}.po`) < 0) {
+if (languageCodes.length > 0) {
+  languageCodes.forEach(function(language) {
+    if (language !== baseLanguage) {
+      if (step === 'init') {
+        var pathToI18nFolder = `${sourceFolder}/${i18nFolderName}`;
+        var listOfFilesInI18nFolder = [];
+        if (!fs.existsSync(pathToI18nFolder)) {
+          fs.mkdirSync(pathToI18nFolder);
+        }
+        fs.readdirSync(pathToI18nFolder).forEach(fileName => {
+          listOfFilesInI18nFolder.push(fileName);
+        });
+        if (listOfFilesInI18nFolder.indexOf(`${language}.po`) < 0) {
+          exec(
+            `npx ttag init ${language} ${sourceFolder}/${i18nFolderName}/${language}.po`,
+            function(err) {
+              if (err) {
+                console.log(`Error: ${err}`);
+                return;
+              }
+              console.log(
+                `New language file created: "${sourceFolder}/${i18nFolderName}/${language}.po"`
+              );
+            }
+          );
+          exec(
+            `npx ttag update ${sourceFolder}/${i18nFolderName}/${language}.po ${sourceFolder}/`,
+            function(err) {
+              if (err) {
+                console.log(`Error: ${err}`);
+                return;
+              }
+              console.log(
+                `New language file updated: "${sourceFolder}/${i18nFolderName}/${language}.po"`
+              );
+            }
+          );
+        } else {
+          console.log(
+            `"${sourceFolder}/${i18nFolderName}/${language}.po" already exists`
+          );
+        }
+      } else if (step === 'update') {
         exec(
-          `npx ttag init ${language} ${sourceFolder}/${i18nFolderName}/${language}.po`,
-          function(err, stdout, stderr) {
+          `npx ttag update ${sourceFolder}/${i18nFolderName}/${language}.po ${sourceFolder}/`,
+          function(err) {
+            if (err) {
+              console.log(`Error: ${err}`);
+              return;
+            }
+          }
+        );
+        exec(
+          `npx ttag po2json ${sourceFolder}/${i18nFolderName}/${language}.po > ${sourceFolder}/${i18nFolderName}/${language}.po.json`,
+          function(err) {
             if (err) {
               console.log(`Error: ${err}`);
               return;
             }
             console.log(
-              `New language file added: "${sourceFolder}/${i18nFolderName}/${language}.po"`
+              `${sourceFolder}/${i18nFolderName}/${language}.po.json updated`
             );
           }
         );
       }
-    } else if (step === 'update') {
-      exec(
-        `npx ttag update ${sourceFolder}/${i18nFolderName}/${language}.po ${sourceFolder}/`,
-        function(err, stdout, stderr) {
-          if (err) {
-            console.log(`Error: ${err}`);
-            return;
-          }
-        }
-      );
-      exec(
-        `npx ttag po2json ${sourceFolder}/${i18nFolderName}/${language}.po > ${sourceFolder}/${i18nFolderName}/${language}.po.json`,
-        function(err, stdout, stderr) {
-          if (err) {
-            console.log(`Error: ${err}`);
-            return;
-          }
-          console.log(
-            `${sourceFolder}/${i18nFolderName}/${language}.po.json updated`
-          );
-        }
-      );
     }
-  }
-});
+  });
+}

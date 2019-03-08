@@ -19,6 +19,13 @@ class App extends Component {
           <ExampleText text={t`Blah blah yo`} />
           {t`Learn React`}
         </header>
+        <main className="App-main">
+          <section className="Main-text-section">
+            <ExampleText
+              text={t`This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps.`}
+            />
+          </section>
+        </main>
       </div>
     );
   }
