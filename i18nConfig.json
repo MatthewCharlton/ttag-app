@@ -1,0 +1,6 @@
+{
+  "baseLanguage": "en",
+  "languageCodes": ["fr", "de"],
+  "path": "src/i18n",
+  "sourceFolder": "src"
+}

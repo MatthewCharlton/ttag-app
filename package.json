@@ -12,6 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "i18n": "node process-i18n i18nConfig.json",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
