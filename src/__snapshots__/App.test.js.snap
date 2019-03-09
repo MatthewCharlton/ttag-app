@@ -1,0 +1,1788 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+App {
+  "_reactInternalFiber": FiberNode {
+    "_debugHookTypes": null,
+    "_debugID": 27,
+    "_debugIsCurrentlyTiming": false,
+    "_debugOwner": null,
+    "_debugSource": Object {
+      "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/App.test.js",
+      "lineNumber": 13,
+    },
+    "actualDuration": 0,
+    "actualStartTime": -1,
+    "alternate": null,
+    "child": FiberNode {
+      "_debugHookTypes": null,
+      "_debugID": 28,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": [Circular],
+      "_debugSource": Object {
+        "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/App.js",
+        "lineNumber": 12,
+      },
+      "actualDuration": 0,
+      "actualStartTime": -1,
+      "alternate": null,
+      "child": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 29,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": [Circular],
+        "_debugSource": Object {
+          "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/App.js",
+          "lineNumber": 13,
+        },
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": null,
+        "child": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 33,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/ChangeLang.js",
+            "lineNumber": 21,
+          },
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 34,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/ChangeLang.js",
+              "lineNumber": 22,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": null,
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 0,
+            "elementType": "option",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": "English",
+              "value": "en",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": "English",
+              "value": "en",
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 35,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/ChangeLang.js",
+                "lineNumber": 23,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": "option",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "French",
+                "value": "fr",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "French",
+                "value": "fr",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 36,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/ChangeLang.js",
+                  "lineNumber": 24,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "option",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 2,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "German",
+                  "value": "de",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "German",
+                  "value": "de",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugHookTypes": null,
+                  "_debugID": 37,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/ChangeLang.js",
+                    "lineNumber": 25,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "option",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 3,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Spanish",
+                    "value": "es",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Spanish",
+                    "value": "es",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 38,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/ChangeLang.js",
+                      "lineNumber": 26,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "contextDependencies": null,
+                    "effectTag": 0,
+                    "elementType": "option",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 4,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Russian",
+                      "value": "ru",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Russian",
+                      "value": "ru",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <option
+                      value="ru"
+                    >
+                      Russian
+                    </option>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "option",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <option
+                    value="es"
+                  >
+                    Spanish
+                  </option>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "option",
+                  "updateQueue": null,
+                },
+                "stateNode": <option
+                  value="de"
+                >
+                  German
+                </option>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "option",
+                "updateQueue": null,
+              },
+              "stateNode": <option
+                value="fr"
+              >
+                French
+              </option>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "option",
+              "updateQueue": null,
+            },
+            "stateNode": <option
+              value="en"
+            >
+              English
+            </option>,
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": "option",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 0,
+          "elementType": "select",
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": Array [
+              <option
+                value="en"
+              >
+                English
+              </option>,
+              <option
+                value="fr"
+              >
+                French
+              </option>,
+              <option
+                value="de"
+              >
+                German
+              </option>,
+              <option
+                value="es"
+              >
+                Spanish
+              </option>,
+              <option
+                value="ru"
+              >
+                Russian
+              </option>,
+            ],
+            "onChange": [Function],
+            "value": "en",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": Array [
+              <option
+                value="en"
+              >
+                English
+              </option>,
+              <option
+                value="fr"
+              >
+                French
+              </option>,
+              <option
+                value="de"
+              >
+                German
+              </option>,
+              <option
+                value="es"
+              >
+                Spanish
+              </option>,
+              <option
+                value="ru"
+              >
+                Russian
+              </option>,
+            ],
+            "onChange": [Function],
+            "value": "en",
+          },
+          "ref": null,
+          "return": [Circular],
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": <select>
+            <option
+              value="en"
+            >
+              English
+            </option>
+            <option
+              value="fr"
+            >
+              French
+            </option>
+            <option
+              value="de"
+            >
+              German
+            </option>
+            <option
+              value="es"
+            >
+              Spanish
+            </option>
+            <option
+              value="ru"
+            >
+              Russian
+            </option>
+          </select>,
+          "tag": 5,
+          "treeBaseDuration": 0,
+          "type": "select",
+          "updateQueue": null,
+        },
+        "childExpirationTime": 0,
+        "contextDependencies": null,
+        "effectTag": 1,
+        "elementType": [Function],
+        "expirationTime": 0,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "trigger": [Function],
+        },
+        "memoizedState": Object {
+          "lang": "en",
+        },
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "trigger": [Function],
+        },
+        "ref": null,
+        "return": [Circular],
+        "selfBaseDuration": 0,
+        "sibling": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 30,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/App.js",
+            "lineNumber": 14,
+          },
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 39,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/MainArticle.js",
+              "lineNumber": 5,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 40,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/MainArticle.js",
+                "lineNumber": 15,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 41,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/MainArticle.js",
+                  "lineNumber": 22,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "h1",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "Ohai world",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "Ohai world",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <h1>
+                  Ohai world
+                </h1>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "h1",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": "div",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": <h1>
+                  Ohai world
+                </h1>,
+                "style": Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "justifyContent": "center",
+                },
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": <h1>
+                  Ohai world
+                </h1>,
+                "style": Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "justifyContent": "center",
+                },
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <div
+                style="display: flex; align-items: center; justify-content: center;"
+              >
+                <h1>
+                  Ohai world
+                </h1>
+              </div>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 0,
+            "elementType": "div",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": <div
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <h1>
+                  Ohai world
+                </h1>
+              </div>,
+              "style": Object {
+                "alignItems": "center",
+                "background": "url(https://www.qantas.com/images/qantas/merchandising/loyalty/singapore-skyline-marina-night/jpg/homepagepromotion.mobile.jpg) no-repeat center center",
+                "backgroundSize": "cover",
+                "display": "flex",
+                "height": "60vh",
+                "justifyContent": "center",
+              },
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": <div
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <h1>
+                  Ohai world
+                </h1>
+              </div>,
+              "style": Object {
+                "alignItems": "center",
+                "background": "url(https://www.qantas.com/images/qantas/merchandising/loyalty/singapore-skyline-marina-night/jpg/homepagepromotion.mobile.jpg) no-repeat center center",
+                "backgroundSize": "cover",
+                "display": "flex",
+                "height": "60vh",
+                "justifyContent": "center",
+              },
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <div
+              style="background: url(https://www.qantas.com/images/qantas/merchandising/loyalty/singapore-skyline-marina-night/jpg/homepagepromotion.mobile.jpg) no-repeat center; background-size: cover; height: 60vh; display: flex; align-items: center; justify-content: center;"
+            >
+              <div
+                style="display: flex; align-items: center; justify-content: center;"
+              >
+                <h1>
+                  Ohai world
+                </h1>
+              </div>
+            </div>,
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": "div",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "contextDependencies": null,
+          "effectTag": 1,
+          "elementType": [Function],
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 1,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "backgroundImgUrl": "https://www.qantas.com/images/qantas/merchandising/loyalty/singapore-skyline-marina-night/jpg/homepagepromotion.mobile.jpg",
+            "callToAction": "Ohai world",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "backgroundImgUrl": "https://www.qantas.com/images/qantas/merchandising/loyalty/singapore-skyline-marina-night/jpg/homepagepromotion.mobile.jpg",
+            "callToAction": "Ohai world",
+          },
+          "ref": null,
+          "return": [Circular],
+          "selfBaseDuration": 0,
+          "sibling": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 31,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/App.js",
+              "lineNumber": 18,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 42,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/App.js",
+                "lineNumber": 19,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 44,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/ExampleText.js",
+                  "lineNumber": 5,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "div",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "This is some example text: Blah blah yo",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "This is some example text: Blah blah yo",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <div>
+                  This is some example text: Blah blah yo
+                </div>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "div",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 1,
+              "elementType": [Function],
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "text": "Blah blah yo",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "text": "Blah blah yo",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 43,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": null,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": "Learn React",
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": "Learn React",
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Learn React,
+                "tag": 6,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": null,
+              },
+              "stateNode": null,
+              "tag": 0,
+              "treeBaseDuration": 0,
+              "type": [Function],
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "contextDependencies": null,
+            "effectTag": 0,
+            "elementType": "header",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 2,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <ExampleText
+                  text="Blah blah yo"
+                />,
+                "Learn React",
+              ],
+              "className": "App-header",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": Array [
+                <ExampleText
+                  text="Blah blah yo"
+                />,
+                "Learn React",
+              ],
+              "className": "App-header",
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 32,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/App.js",
+                "lineNumber": 22,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 45,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/App.js",
+                  "lineNumber": 23,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugHookTypes": null,
+                  "_debugID": 46,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/App.js",
+                    "lineNumber": 24,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 47,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/newowner/Code/WebDev/ttag-app/src/ExampleText.js",
+                      "lineNumber": 5,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "contextDependencies": null,
+                    "effectTag": 0,
+                    "elementType": "div",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "This is some example text: This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps.",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "This is some example text: This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps.",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <div>
+                      This is some example text: This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps.
+                    </div>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "div",
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 1,
+                  "elementType": [Function],
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "text": "This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps.",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "text": "This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps.",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": null,
+                  "tag": 0,
+                  "treeBaseDuration": 0,
+                  "type": [Function],
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "section",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": <ExampleText
+                    text="This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps."
+                  />,
+                  "className": "Main-text-section",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": <ExampleText
+                    text="This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps."
+                  />,
+                  "className": "Main-text-section",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <section
+                  class="Main-text-section"
+                >
+                  <div>
+                    This is some example text: This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps.
+                  </div>
+                </section>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "section",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": "main",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 3,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": <section
+                  className="Main-text-section"
+                >
+                  <ExampleText
+                    text="This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps."
+                  />
+                </section>,
+                "className": "App-main",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": <section
+                  className="Main-text-section"
+                >
+                  <ExampleText
+                    text="This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps."
+                  />
+                </section>,
+                "className": "App-main",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <main
+                class="App-main"
+              >
+                <section
+                  class="Main-text-section"
+                >
+                  <div>
+                    This is some example text: This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps.
+                  </div>
+                </section>
+              </main>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "main",
+              "updateQueue": null,
+            },
+            "stateNode": <header
+              class="App-header"
+            >
+              <div>
+                This is some example text: Blah blah yo
+              </div>
+              Learn React
+            </header>,
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": "header",
+            "updateQueue": null,
+          },
+          "stateNode": null,
+          "tag": 0,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "stateNode": ChangeLang {
+          "_reactInternalFiber": [Circular],
+          "_reactInternalInstance": Object {},
+          "context": Object {},
+          "handleChange": [Function],
+          "props": Object {
+            "trigger": [Function],
+          },
+          "refs": Object {},
+          "state": Object {
+            "lang": "en",
+          },
+          "updater": Object {
+            "enqueueForceUpdate": [Function],
+            "enqueueReplaceState": [Function],
+            "enqueueSetState": [Function],
+            "isMounted": [Function],
+          },
+        },
+        "tag": 1,
+        "treeBaseDuration": 0,
+        "type": [Function],
+        "updateQueue": null,
+      },
+      "childExpirationTime": 0,
+      "contextDependencies": null,
+      "effectTag": 0,
+      "elementType": "div",
+      "expirationTime": 0,
+      "firstEffect": null,
+      "index": 0,
+      "key": null,
+      "lastEffect": null,
+      "memoizedProps": Object {
+        "children": Array [
+          <ChangeLang
+            trigger={[Function]}
+          />,
+          <MainArticle
+            backgroundImgUrl="https://www.qantas.com/images/qantas/merchandising/loyalty/singapore-skyline-marina-night/jpg/homepagepromotion.mobile.jpg"
+            callToAction="Ohai world"
+          />,
+          <header
+            className="App-header"
+          >
+            <ExampleText
+              text="Blah blah yo"
+            />
+            Learn React
+          </header>,
+          <main
+            className="App-main"
+          >
+            <section
+              className="Main-text-section"
+            >
+              <ExampleText
+                text="This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps."
+              />
+            </section>
+          </main>,
+        ],
+        "className": "App",
+      },
+      "memoizedState": null,
+      "mode": 0,
+      "nextEffect": null,
+      "pendingProps": Object {
+        "children": Array [
+          <ChangeLang
+            trigger={[Function]}
+          />,
+          <MainArticle
+            backgroundImgUrl="https://www.qantas.com/images/qantas/merchandising/loyalty/singapore-skyline-marina-night/jpg/homepagepromotion.mobile.jpg"
+            callToAction="Ohai world"
+          />,
+          <header
+            className="App-header"
+          >
+            <ExampleText
+              text="Blah blah yo"
+            />
+            Learn React
+          </header>,
+          <main
+            className="App-main"
+          >
+            <section
+              className="Main-text-section"
+            >
+              <ExampleText
+                text="This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps."
+              />
+            </section>
+          </main>,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "return": [Circular],
+      "selfBaseDuration": 0,
+      "sibling": null,
+      "stateNode": <div
+        class="App"
+      >
+        <select>
+          <option
+            value="en"
+          >
+            English
+          </option>
+          <option
+            value="fr"
+          >
+            French
+          </option>
+          <option
+            value="de"
+          >
+            German
+          </option>
+          <option
+            value="es"
+          >
+            Spanish
+          </option>
+          <option
+            value="ru"
+          >
+            Russian
+          </option>
+        </select>
+        <div
+          style="background: url(https://www.qantas.com/images/qantas/merchandising/loyalty/singapore-skyline-marina-night/jpg/homepagepromotion.mobile.jpg) no-repeat center; background-size: cover; height: 60vh; display: flex; align-items: center; justify-content: center;"
+        >
+          <div
+            style="display: flex; align-items: center; justify-content: center;"
+          >
+            <h1>
+              Ohai world
+            </h1>
+          </div>
+        </div>
+        <header
+          class="App-header"
+        >
+          <div>
+            This is some example text: Blah blah yo
+          </div>
+          Learn React
+        </header>
+        <main
+          class="App-main"
+        >
+          <section
+            class="Main-text-section"
+          >
+            <div>
+              This is some example text: This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps.
+            </div>
+          </section>
+        </main>
+      </div>,
+      "tag": 5,
+      "treeBaseDuration": 0,
+      "type": "div",
+      "updateQueue": null,
+    },
+    "childExpirationTime": 0,
+    "contextDependencies": null,
+    "effectTag": 1,
+    "elementType": [Function],
+    "expirationTime": 0,
+    "firstEffect": null,
+    "index": 0,
+    "key": null,
+    "lastEffect": null,
+    "memoizedProps": Object {},
+    "memoizedState": null,
+    "mode": 0,
+    "nextEffect": FiberNode {
+      "_debugHookTypes": null,
+      "_debugID": 25,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": null,
+      "_debugSource": null,
+      "actualDuration": 0,
+      "actualStartTime": -1,
+      "alternate": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 25,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": [Circular],
+        "child": null,
+        "childExpirationTime": 0,
+        "contextDependencies": null,
+        "effectTag": 0,
+        "elementType": null,
+        "expirationTime": 1073741823,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": null,
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": Object {
+          "containerInfo": <div>
+            <div
+              class="App"
+            >
+              <select>
+                <option
+                  value="en"
+                >
+                  English
+                </option>
+                <option
+                  value="fr"
+                >
+                  French
+                </option>
+                <option
+                  value="de"
+                >
+                  German
+                </option>
+                <option
+                  value="es"
+                >
+                  Spanish
+                </option>
+                <option
+                  value="ru"
+                >
+                  Russian
+                </option>
+              </select>
+              <div
+                style="background: url(https://www.qantas.com/images/qantas/merchandising/loyalty/singapore-skyline-marina-night/jpg/homepagepromotion.mobile.jpg) no-repeat center; background-size: cover; height: 60vh; display: flex; align-items: center; justify-content: center;"
+              >
+                <div
+                  style="display: flex; align-items: center; justify-content: center;"
+                >
+                  <h1>
+                    Ohai world
+                  </h1>
+                </div>
+              </div>
+              <header
+                class="App-header"
+              >
+                <div>
+                  This is some example text: Blah blah yo
+                </div>
+                Learn React
+              </header>
+              <main
+                class="App-main"
+              >
+                <section
+                  class="Main-text-section"
+                >
+                  <div>
+                    This is some example text: This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps.
+                  </div>
+                </section>
+              </main>
+            </div>
+          </div>,
+          "context": Object {},
+          "current": [Circular],
+          "didError": false,
+          "earliestPendingTime": 0,
+          "earliestSuspendedTime": 0,
+          "expirationTime": 0,
+          "finishedWork": null,
+          "firstBatch": null,
+          "hydrate": false,
+          "interactionThreadID": 2,
+          "latestPendingTime": 0,
+          "latestPingedTime": 0,
+          "latestSuspendedTime": 0,
+          "memoizedInteractions": Set {},
+          "nextExpirationTimeToWorkOn": 0,
+          "nextScheduledRoot": null,
+          "pendingChildren": null,
+          "pendingCommitExpirationTime": 0,
+          "pendingContext": null,
+          "pendingInteractionMap": Map {},
+          "pingCache": null,
+          "timeoutHandle": -1,
+        },
+        "tag": 3,
+        "treeBaseDuration": 0,
+        "type": null,
+        "updateQueue": Object {
+          "baseState": null,
+          "firstCapturedEffect": null,
+          "firstCapturedUpdate": null,
+          "firstEffect": null,
+          "firstUpdate": Object {
+            "callback": null,
+            "expirationTime": 1073741823,
+            "next": null,
+            "nextEffect": null,
+            "payload": Object {
+              "element": <App />,
+            },
+            "tag": 0,
+          },
+          "lastCapturedEffect": null,
+          "lastCapturedUpdate": null,
+          "lastEffect": null,
+          "lastUpdate": Object {
+            "callback": null,
+            "expirationTime": 1073741823,
+            "next": null,
+            "nextEffect": null,
+            "payload": Object {
+              "element": <App />,
+            },
+            "tag": 0,
+          },
+        },
+      },
+      "child": [Circular],
+      "childExpirationTime": 0,
+      "contextDependencies": null,
+      "effectTag": 32,
+      "elementType": null,
+      "expirationTime": 0,
+      "firstEffect": [Circular],
+      "index": 0,
+      "key": null,
+      "lastEffect": [Circular],
+      "memoizedProps": null,
+      "memoizedState": Object {
+        "element": <App />,
+      },
+      "mode": 0,
+      "nextEffect": null,
+      "pendingProps": null,
+      "ref": null,
+      "return": null,
+      "selfBaseDuration": 0,
+      "sibling": null,
+      "stateNode": Object {
+        "containerInfo": <div>
+          <div
+            class="App"
+          >
+            <select>
+              <option
+                value="en"
+              >
+                English
+              </option>
+              <option
+                value="fr"
+              >
+                French
+              </option>
+              <option
+                value="de"
+              >
+                German
+              </option>
+              <option
+                value="es"
+              >
+                Spanish
+              </option>
+              <option
+                value="ru"
+              >
+                Russian
+              </option>
+            </select>
+            <div
+              style="background: url(https://www.qantas.com/images/qantas/merchandising/loyalty/singapore-skyline-marina-night/jpg/homepagepromotion.mobile.jpg) no-repeat center; background-size: cover; height: 60vh; display: flex; align-items: center; justify-content: center;"
+            >
+              <div
+                style="display: flex; align-items: center; justify-content: center;"
+              >
+                <h1>
+                  Ohai world
+                </h1>
+              </div>
+            </div>
+            <header
+              class="App-header"
+            >
+              <div>
+                This is some example text: Blah blah yo
+              </div>
+              Learn React
+            </header>
+            <main
+              class="App-main"
+            >
+              <section
+                class="Main-text-section"
+              >
+                <div>
+                  This is some example text: This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps.
+                </div>
+              </section>
+            </main>
+          </div>
+        </div>,
+        "context": Object {},
+        "current": [Circular],
+        "didError": false,
+        "earliestPendingTime": 0,
+        "earliestSuspendedTime": 0,
+        "expirationTime": 0,
+        "finishedWork": null,
+        "firstBatch": null,
+        "hydrate": false,
+        "interactionThreadID": 2,
+        "latestPendingTime": 0,
+        "latestPingedTime": 0,
+        "latestSuspendedTime": 0,
+        "memoizedInteractions": Set {},
+        "nextExpirationTimeToWorkOn": 0,
+        "nextScheduledRoot": null,
+        "pendingChildren": null,
+        "pendingCommitExpirationTime": 0,
+        "pendingContext": null,
+        "pendingInteractionMap": Map {},
+        "pingCache": null,
+        "timeoutHandle": -1,
+      },
+      "tag": 3,
+      "treeBaseDuration": 0,
+      "type": null,
+      "updateQueue": Object {
+        "baseState": Object {
+          "element": <App />,
+        },
+        "firstCapturedEffect": null,
+        "firstCapturedUpdate": null,
+        "firstEffect": null,
+        "firstUpdate": null,
+        "lastCapturedEffect": null,
+        "lastCapturedUpdate": null,
+        "lastEffect": null,
+        "lastUpdate": null,
+      },
+    },
+    "pendingProps": Object {},
+    "ref": null,
+    "return": FiberNode {
+      "_debugHookTypes": null,
+      "_debugID": 25,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": null,
+      "_debugSource": null,
+      "actualDuration": 0,
+      "actualStartTime": -1,
+      "alternate": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 25,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": [Circular],
+        "child": null,
+        "childExpirationTime": 0,
+        "contextDependencies": null,
+        "effectTag": 0,
+        "elementType": null,
+        "expirationTime": 1073741823,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": null,
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": null,
+        "ref": null,
+        "return": null,
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": Object {
+          "containerInfo": <div>
+            <div
+              class="App"
+            >
+              <select>
+                <option
+                  value="en"
+                >
+                  English
+                </option>
+                <option
+                  value="fr"
+                >
+                  French
+                </option>
+                <option
+                  value="de"
+                >
+                  German
+                </option>
+                <option
+                  value="es"
+                >
+                  Spanish
+                </option>
+                <option
+                  value="ru"
+                >
+                  Russian
+                </option>
+              </select>
+              <div
+                style="background: url(https://www.qantas.com/images/qantas/merchandising/loyalty/singapore-skyline-marina-night/jpg/homepagepromotion.mobile.jpg) no-repeat center; background-size: cover; height: 60vh; display: flex; align-items: center; justify-content: center;"
+              >
+                <div
+                  style="display: flex; align-items: center; justify-content: center;"
+                >
+                  <h1>
+                    Ohai world
+                  </h1>
+                </div>
+              </div>
+              <header
+                class="App-header"
+              >
+                <div>
+                  This is some example text: Blah blah yo
+                </div>
+                Learn React
+              </header>
+              <main
+                class="App-main"
+              >
+                <section
+                  class="Main-text-section"
+                >
+                  <div>
+                    This is some example text: This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps.
+                  </div>
+                </section>
+              </main>
+            </div>
+          </div>,
+          "context": Object {},
+          "current": [Circular],
+          "didError": false,
+          "earliestPendingTime": 0,
+          "earliestSuspendedTime": 0,
+          "expirationTime": 0,
+          "finishedWork": null,
+          "firstBatch": null,
+          "hydrate": false,
+          "interactionThreadID": 2,
+          "latestPendingTime": 0,
+          "latestPingedTime": 0,
+          "latestSuspendedTime": 0,
+          "memoizedInteractions": Set {},
+          "nextExpirationTimeToWorkOn": 0,
+          "nextScheduledRoot": null,
+          "pendingChildren": null,
+          "pendingCommitExpirationTime": 0,
+          "pendingContext": null,
+          "pendingInteractionMap": Map {},
+          "pingCache": null,
+          "timeoutHandle": -1,
+        },
+        "tag": 3,
+        "treeBaseDuration": 0,
+        "type": null,
+        "updateQueue": Object {
+          "baseState": null,
+          "firstCapturedEffect": null,
+          "firstCapturedUpdate": null,
+          "firstEffect": null,
+          "firstUpdate": Object {
+            "callback": null,
+            "expirationTime": 1073741823,
+            "next": null,
+            "nextEffect": null,
+            "payload": Object {
+              "element": <App />,
+            },
+            "tag": 0,
+          },
+          "lastCapturedEffect": null,
+          "lastCapturedUpdate": null,
+          "lastEffect": null,
+          "lastUpdate": Object {
+            "callback": null,
+            "expirationTime": 1073741823,
+            "next": null,
+            "nextEffect": null,
+            "payload": Object {
+              "element": <App />,
+            },
+            "tag": 0,
+          },
+        },
+      },
+      "child": [Circular],
+      "childExpirationTime": 0,
+      "contextDependencies": null,
+      "effectTag": 32,
+      "elementType": null,
+      "expirationTime": 0,
+      "firstEffect": [Circular],
+      "index": 0,
+      "key": null,
+      "lastEffect": [Circular],
+      "memoizedProps": null,
+      "memoizedState": Object {
+        "element": <App />,
+      },
+      "mode": 0,
+      "nextEffect": null,
+      "pendingProps": null,
+      "ref": null,
+      "return": null,
+      "selfBaseDuration": 0,
+      "sibling": null,
+      "stateNode": Object {
+        "containerInfo": <div>
+          <div
+            class="App"
+          >
+            <select>
+              <option
+                value="en"
+              >
+                English
+              </option>
+              <option
+                value="fr"
+              >
+                French
+              </option>
+              <option
+                value="de"
+              >
+                German
+              </option>
+              <option
+                value="es"
+              >
+                Spanish
+              </option>
+              <option
+                value="ru"
+              >
+                Russian
+              </option>
+            </select>
+            <div
+              style="background: url(https://www.qantas.com/images/qantas/merchandising/loyalty/singapore-skyline-marina-night/jpg/homepagepromotion.mobile.jpg) no-repeat center; background-size: cover; height: 60vh; display: flex; align-items: center; justify-content: center;"
+            >
+              <div
+                style="display: flex; align-items: center; justify-content: center;"
+              >
+                <h1>
+                  Ohai world
+                </h1>
+              </div>
+            </div>
+            <header
+              class="App-header"
+            >
+              <div>
+                This is some example text: Blah blah yo
+              </div>
+              Learn React
+            </header>
+            <main
+              class="App-main"
+            >
+              <section
+                class="Main-text-section"
+              >
+                <div>
+                  This is some example text: This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps.
+                </div>
+              </section>
+            </main>
+          </div>
+        </div>,
+        "context": Object {},
+        "current": [Circular],
+        "didError": false,
+        "earliestPendingTime": 0,
+        "earliestSuspendedTime": 0,
+        "expirationTime": 0,
+        "finishedWork": null,
+        "firstBatch": null,
+        "hydrate": false,
+        "interactionThreadID": 2,
+        "latestPendingTime": 0,
+        "latestPingedTime": 0,
+        "latestSuspendedTime": 0,
+        "memoizedInteractions": Set {},
+        "nextExpirationTimeToWorkOn": 0,
+        "nextScheduledRoot": null,
+        "pendingChildren": null,
+        "pendingCommitExpirationTime": 0,
+        "pendingContext": null,
+        "pendingInteractionMap": Map {},
+        "pingCache": null,
+        "timeoutHandle": -1,
+      },
+      "tag": 3,
+      "treeBaseDuration": 0,
+      "type": null,
+      "updateQueue": Object {
+        "baseState": Object {
+          "element": <App />,
+        },
+        "firstCapturedEffect": null,
+        "firstCapturedUpdate": null,
+        "firstEffect": null,
+        "firstUpdate": null,
+        "lastCapturedEffect": null,
+        "lastCapturedUpdate": null,
+        "lastEffect": null,
+        "lastUpdate": null,
+      },
+    },
+    "selfBaseDuration": 0,
+    "sibling": null,
+    "stateNode": [Circular],
+    "tag": 1,
+    "treeBaseDuration": 0,
+    "type": [Function],
+    "updateQueue": null,
+  },
+  "_reactInternalInstance": Object {},
+  "context": Object {},
+  "props": Object {},
+  "refs": Object {},
+  "state": null,
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;
