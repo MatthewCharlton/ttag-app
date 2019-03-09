@@ -36,7 +36,7 @@ if (!i18nFolderName || !baseLanguage || !languageCodes || !baseFolder)
   return process.exit(1);
 
 if (languageCodes.length > 0) {
-  var pathToI18nFolder = `${baseFolder}${i18nFolderName}`;
+  var pathToI18nFolder = `${baseFolder}/${i18nFolderName}`;
   languageCodes.forEach(function(language) {
     if (language !== baseLanguage) {
       if (step === 'init') {
