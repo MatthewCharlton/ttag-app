@@ -16,6 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "i18n:init": "node process-i18n i18nConfig.json init",
+    "i18n:translate": "node process-i18n i18nConfig.json translate",
     "i18n:update": "node process-i18n i18nConfig.json update",
     "eject": "react-scripts eject"
   },

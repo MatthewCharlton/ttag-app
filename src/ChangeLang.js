@@ -17,8 +17,6 @@ class ChangeLang extends React.Component {
   render() {
     const { lang } = this.state;
 
-    // Object.keys(i18nObj).map(lang => console.log(lang));
-
     i18n(lang);
     return (
       <select onChange={this.handleChange} value={lang}>

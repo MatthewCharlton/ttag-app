@@ -7,30 +7,6 @@ var AWS = require('aws-sdk');
 var awsConfig = require('./awsConfig.json');
 var awsTranslate = new AWS.Translate(awsConfig);
 
-function translate(items, lang, cb) {
-  var q = async.queue(doTranslate, 5);
-
-  function doTranslate(item, cb) {
-    console.log('translating:', item);
-    var params = {
-      SourceLanguageCode: 'en',
-      TargetLanguageCode: lang,
-      Text: item.msgid
-    };
-    awsTranslate.translateText(params, cb);
-  }
-
-  var translations = [];
-  q.push(items, function(err, data) {
-    if (err) return console.log('Error:', err);
-    translations.push(data);
-  });
-
-  q.drain = function() {
-    return cb(null, translations);
-  };
-}
-
 console.log('\n *Process i18n* \n');
 
 var configPath = process.argv[2];
@@ -50,6 +26,34 @@ if (!step) {
 }
 
 var config = JSON.parse(fs.readFileSync(configPath));
+
+function translate(items, lang, cb) {
+  var q = async.queue(doTranslate, 5);
+
+  function doTranslate(item, cb) {
+    var params = {
+      SourceLanguageCode: config.baseLanguage,
+      TargetLanguageCode: lang,
+      Text: item.msgid
+    };
+    awsTranslate.translateText(params, function(err, data) {
+      if (err) {
+        console.log(err, err.stack);
+      }
+      cb(null, Object.assign({ msgid: item.msgid }, data));
+    });
+  }
+
+  var translations = [];
+  q.push(items, function(err, data) {
+    if (err) return console.log('Queue Error:', err);
+    translations.push(data);
+  });
+
+  q.drain = function() {
+    return cb(null, translations);
+  };
+}
 
 var i18nFolderName = config.i18nFolderName;
 var baseLanguage = config.baseLanguage;
@@ -109,9 +113,13 @@ if (languageCodes.length > 0) {
             translate(po.items, language, function(err, translations) {
               if (err) return console.log(`Error: "${err}"`);
 
-              po.items.forEach(function(item, index) {
-                if (translations[index])
-                  item.msgstr = translations[index].TranslatedText;
+              translations.forEach(function(translation, index) {
+                po.items.forEach(function(item) {
+                  if (translation.msgid === item.msgid) {
+                    item.msgstr = translations[index].TranslatedText;
+                  }
+                  return null;
+                });
               });
 
               po.save(poFileName, function() {
