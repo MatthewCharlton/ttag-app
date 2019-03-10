@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "async": "^2.6.2",
+    "aws-sdk": "^2.418.0",
+    "node-po": "^0.1.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",

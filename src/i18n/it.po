@@ -1,10 +1,16 @@
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=utf-8\n"
-"Plural-Forms: nplurals = 2; plural = (n !== 1);\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
 "Language: it\n"
-"MIME-Version: 1.0\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals = 2; plural = (n !== 1);\n"
+"MIME-Version: 1.0\n"
 
 #: src/App.js:15
 msgid "Ohai world"
@@ -19,13 +25,8 @@ msgid "Learn React"
 msgstr "Impara Reagisci"
 
 #: src/App.js:25
-msgid ""
-"This article will describe how you can set up the translation process for "
-"Create React App with ttag in a few minutes with 5 simple steps."
-msgstr ""
-"Questo articolo descriverà come è possibile impostare il processo di "
-"traduzione per Create React App con ttag in pochi minuti con 5 semplici "
-"passaggi."
+msgid "This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps."
+msgstr "Questo articolo descriverà come è possibile impostare il processo di traduzione per Create React App con ttag in pochi minuti con 5 semplici passaggi."
 
 #: src/ExampleText.js:5
 msgid "This is some example text: ${ text }"
