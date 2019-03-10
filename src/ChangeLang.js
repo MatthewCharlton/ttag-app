@@ -14,25 +14,30 @@ class ChangeLang extends React.Component {
     });
   };
 
+  renderLanguageSelect = () => {
+    const selectElements = [
+      <option key="en" value="en">
+        English
+      </option>
+    ];
+    Object.keys(i18nObj).forEach(lang => {
+      selectElements.push(
+        <option key={lang} value={lang}>
+          {i18nObj[lang][1]}
+        </option>
+      );
+    });
+    return selectElements;
+  };
+
   render() {
     const { lang } = this.state;
 
     i18n(lang);
+
     return (
       <select onChange={this.handleChange} value={lang}>
-        {Object.keys(i18nObj).map((lang, i) => {
-          if (i === 0)
-            return (
-              <option key="en" value="en">
-                English
-              </option>
-            );
-          return (
-            <option key={lang} value={lang}>
-              {i18nObj[lang][1]}
-            </option>
-          );
-        })}
+        {this.renderLanguageSelect()}
       </select>
     );
   }

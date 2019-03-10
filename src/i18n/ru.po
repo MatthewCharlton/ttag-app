@@ -9,26 +9,32 @@ msgstr ""
 "Language-Team: \n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals = 3; plural = (n % 10 === 1 && n % 100 !== 11 ? 0 : "\n"
-"n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 10 || n % 100 >= 20) ? 1: 2);\n"
-"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals = 3; plural = (n % 10 === 1 && n % 100 !== 11 ? 0 :\n"
 
-#: src/App.js:15
+#: src/App.js:16
 msgid "Ohai world"
-msgstr "Охай мир"
-
-#: src/App.js:19
-msgid "Blah blah yo"
-msgstr "Бла бла йо"
+msgstr "Мир Охай"
 
 #: src/App.js:20
+msgid "Blah blah yo"
+msgstr "Бла-бла йо"
+
+#: src/App.js:21
 msgid "Learn React"
-msgstr "Узнать React"
+msgstr "Учить Реагирование"
 
-#: src/ExampleText.js:5
-msgid "This is some example text: ${ text }"
-msgstr "Это пример текста: ${ text }"
+#: src/App.js:26
+msgid ""
+"This article will describe how you can set up the translation process for "
+"Create React App with ttag in a few minutes with 5 simple steps."
+msgstr ""
+"В этой статье описывается, как вы можете настроить процесс перевода для "
+"Create React App с ttag в течение нескольких минут с 5 простых шагов."
 
-#: src/App.js:25
-msgid "This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps."
-msgstr "В этой статье описывается, как вы можете настроить процесс перевода для Создайте приложение React с помощью ttag за несколько минут за 5 простых шагов."
+#: src/App.js:32
+msgid "This will be translated"
+msgstr "Это будет переведено"
+
+#: src/ExampleText.js:6
+msgid "This is some example translated text: "
+msgstr "Это пример перевода текста:"

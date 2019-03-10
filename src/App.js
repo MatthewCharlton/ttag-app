@@ -3,6 +3,7 @@ import { t } from 'ttag';
 
 import ChangeLang from './ChangeLang';
 import ExampleText from './ExampleText';
+import ExampleJSXWithText from './ExampleJSXWithText';
 import MainArticle from './MainArticle';
 import './App.css';
 
@@ -26,6 +27,11 @@ class App extends Component {
             />
           </section>
         </main>
+        <footer>
+          <section className="Footer-jsx-section">
+            <ExampleJSXWithText translatedText={t`This will be translated`} />
+          </section>
+        </footer>
       </div>
     );
   }

@@ -12,22 +12,31 @@ msgstr ""
 "Plural-Forms: nplurals = 2; plural = (n !== 1);\n"
 "MIME-Version: 1.0\n"
 
-#: src/App.js:15
+#: src/App.js:16
 msgid "Ohai world"
 msgstr "Ohai Welt"
 
-#: src/App.js:19
-msgid "Blah blah yo"
-msgstr "Bla bla bla yo"
-
 #: src/App.js:20
+msgid "Blah blah yo"
+msgstr "Bla bla yo"
+
+#: src/App.js:21
 msgid "Learn React"
-msgstr "Lernen Sie zu React"
+msgstr "Lernen React"
 
-#: src/ExampleText.js:5
-msgid "This is some example text: ${ text }"
-msgstr "Dies ist ein Beispieltext: ${ text }"
+#: src/App.js:26
+msgid ""
+"This article will describe how you can set up the translation process for "
+"Create React App with ttag in a few minutes with 5 simple steps."
+msgstr ""
+"In diesem Artikel wird beschrieben, wie Sie den Übersetzungsprozess für "
+"Create React App mit ttag in wenigen Minuten mit 5 einfachen Schritten "
+"einrichten können."
 
-#: src/App.js:25
-msgid "This article will describe how you can set up the translation process for Create React App with ttag in a few minutes with 5 simple steps."
-msgstr "In diesem Artikel wird beschrieben, wie Sie den Übersetzungsprozess für Create React App mit ttag in wenigen Minuten mit 5 einfachen Schritten einrichten können."
+#: src/App.js:32
+msgid "This will be translated"
+msgstr "Dies wird übersetzt werden"
+
+#: src/ExampleText.js:6
+msgid "This is some example translated text: "
+msgstr "Dies ist ein Beispiel übersetzter Text:"
