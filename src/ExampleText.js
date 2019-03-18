@@ -3,11 +3,10 @@ import { t } from 'ttag';
 
 const ExampleText = ({ text }) => (
   <div>
-    <h3>{t`This is some example translated text: `}</h3>
-    {text}
+    <h3>{t`This is some example translated text: ${text}`}</h3>
     <br />
     <p>
-      Text not wrapped with <pre>t``</pre> will not be translated
+      Text not wrapped with <i>t``</i> will not be translated
     </p>
   </div>
 );

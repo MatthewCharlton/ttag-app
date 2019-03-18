@@ -116,7 +116,10 @@ if (languageCodes.length > 0) {
               translations.forEach(function(translation, index) {
                 po.items.forEach(function(item) {
                   if (translation.msgid === item.msgid) {
-                    item.msgstr = translations[index].TranslatedText;
+                    item.msgstr = translations[index].TranslatedText.replace(
+                      /(.*)(\${)([^\s].+[^\}^\s])(})(.*)/g,
+                      '$1$2 $3 $4$5'
+                    );
                   }
                   return null;
                 });

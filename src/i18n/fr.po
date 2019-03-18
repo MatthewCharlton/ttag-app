@@ -38,5 +38,9 @@ msgid "This will be translated"
 msgstr "Cela sera traduit"
 
 #: src/ExampleText.js:6
-msgid "This is some example translated text: "
-msgstr "Voici un exemple de texte traduit :"
+msgid "This is some example translated text: ${ text }"
+msgstr "Voici un exemple de texte traduit : ${ text }"
+
+#: src/ExampleJSXWithText.js:14
+msgid "Click this button ${ button }"
+msgstr "Cliquez sur ce bouton ${ button }"
